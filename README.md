@@ -1,3 +1,3 @@
-# Lyric Love Apparel V3
+# Lyric Love Apparel
 
-Upload all root files to GitHub. This version uses embedded CSS and JavaScript so styling works on GitHub Pages without folders.
+Styled boutique website for GitHub Pages. Upload all files to the repository root.
