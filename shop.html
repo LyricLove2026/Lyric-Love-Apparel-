@@ -6,24 +6,25 @@
 <title>Shop | Lyric Love Apparel</title>
 <link rel="stylesheet" href="style.css">
 <style>
-body{background:#080808;color:#fff}
-.shop-hero{padding:70px 18px;text-align:center;background:linear-gradient(135deg,#000,#4b0082,#ff1493)}
-.shop-hero h1{font-size:42px}
-.shop-hero p{max-width:700px;margin:15px auto;font-size:18px}
-.product-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:25px;padding:35px 18px;max-width:1300px;margin:auto}
-.product-card{background:#111;border:2px solid #ff1493;border-radius:22px;overflow:hidden;box-shadow:0 0 25px #ff149344}
-.product-card img{width:100%;height:280px;object-fit:cover;display:block}
-.product-info{padding:18px}
-.product-info h3{color:#ff4fc3;font-size:22px;margin-bottom:8px}
-.price{color:#00f5ff;font-size:22px;font-weight:bold;margin:10px 0}
+body{background:#070707;color:#fff}
+.shop-hero{padding:75px 18px;text-align:center;background:linear-gradient(135deg,#000,#4b0082,#ff1493,#00cfd1)}
+.shop-hero h1{font-size:42px;text-shadow:3px 3px #000}
+.shop-hero p{max-width:760px;margin:15px auto;font-size:18px}
+.filters{text-align:center;padding:20px}
+.filter{display:inline-block;margin:6px;padding:9px 15px;border:1px solid #ff4fc3;border-radius:25px;color:#fff}
+.product-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:26px;padding:35px 18px;max-width:1300px;margin:auto}
+.product-card{background:#111;border:2px solid #ff1493;border-radius:24px;overflow:hidden;box-shadow:0 0 25px #ff149344}
+.product-card img{width:100%;height:310px;object-fit:cover;display:block}
+.product-info{padding:20px}
 .tag{display:inline-block;background:#ff1493;color:white;padding:6px 12px;border-radius:20px;font-size:12px;margin-bottom:10px}
-.product-info p{color:#ddd;line-height:1.5}
-.product-buttons{display:flex;gap:10px;flex-wrap:wrap;margin-top:15px}
-.product-buttons a{background:#ff1493;color:#fff;padding:10px 14px;border-radius:25px;text-decoration:none;font-weight:bold}
-.product-buttons a.black{background:#000;border:1px solid #fff}
+.product-info h3{color:#ff4fc3;font-size:22px}
+.price{color:#00f5ff;font-size:22px;font-weight:bold;margin:10px 0}
+.options{background:#1b1b1b;border-radius:15px;padding:12px;margin:12px 0;color:#eee;font-size:14px}
+.btns{display:flex;gap:10px;flex-wrap:wrap;margin-top:15px}
+.btns a{background:#ff1493;color:#fff;padding:11px 14px;border-radius:25px;text-decoration:none;font-weight:bold}
+.btns a.black{background:#000;border:1px solid #fff}
 </style>
 </head>
-
 <body>
 
 <div class="topbar">
@@ -34,94 +35,108 @@ body{background:#080808;color:#fff}
 
 <nav>
 <div class="logo">Lyric<span>Love</span> Apparel</div>
+<a class="btn" href="index.html">Home</a>
 <a class="btn" href="contact.html">Request Quote</a>
 </nav>
 
 <section class="shop-hero">
 <h1>Custom Apparel Portfolio</h1>
-<p>Luxury varsity jackets, artist merch, button-downs, hoodies, and custom streetwear designs made to stand out.</p>
+<p>Browse real Lyric Love Apparel designs. Every item is custom-request only so your piece can be made around your size, colors, theme, and vision.</p>
 </section>
+
+<div class="filters">
+<span class="filter">Varsity Jackets</span>
+<span class="filter">Artist Merch</span>
+<span class="filter">Graphic Tees</span>
+<span class="filter">Work Shirts</span>
+<span class="filter">Custom Orders</span>
+</div>
 
 <section class="product-grid">
 
 <div class="product-card">
-<img src="1E249501-2A6B-45BA-B17C-42F025AE1CCA.JPEG" alt="Anymore Jacket">
+<img src="1E249501-2A6B-45BA-B17C-42F025AE1CCA.JPEG">
 <div class="product-info">
 <span class="tag">Varsity Jacket</span>
 <h3>Anymore Jacket</h3>
 <p class="price">Starting at $350+</p>
-<p>Custom purple and black artist-inspired varsity jacket with detailed front and back artwork.</p>
-<div class="product-buttons"><a href="contact.html">Request Order</a><a class="black" href="design-studio.html">Customize</a></div>
+<p>Custom purple and black artist-inspired varsity jacket with front and back artwork.</p>
+<div class="options">Sizes: S–5XL<br>Colors: Custom<br>Turnaround: Quote based</div>
+<div class="btns"><a href="contact.html">Request This Design</a><a class="black" href="design-studio.html">Customize</a></div>
 </div>
 </div>
 
 <div class="product-card">
-<img src="43B204E1-1F4F-4666-B3B5-4CE6BC927484.JPEG" alt="Mental Healing Jacket">
+<img src="43B204E1-1F4F-4666-B3B5-4CE6BC927484.JPEG">
 <div class="product-info">
 <span class="tag">Artist Merch</span>
 <h3>Mental Healing Jacket</h3>
 <p class="price">Starting at $350+</p>
-<p>Bold custom letterman jacket with skull, heart, money stack, and song-inspired design details.</p>
-<div class="product-buttons"><a href="contact.html">Request Order</a><a class="black" href="design-studio.html">Customize</a></div>
+<p>Bold custom letterman jacket with skull, heart, money stack, and storytelling details.</p>
+<div class="options">Sizes: S–5XL<br>Colors: Custom<br>Artwork: Full custom</div>
+<div class="btns"><a href="contact.html">Request This Design</a><a class="black" href="design-studio.html">Customize</a></div>
 </div>
 </div>
 
 <div class="product-card">
-<img src="8FECD920-6530-41AD-996C-84064F6CC2DE.PNG" alt="Junkie Mode Jacket">
+<img src="8FECD920-6530-41AD-996C-84064F6CC2DE.PNG">
 <div class="product-info">
 <span class="tag">Purple Collection</span>
 <h3>Junkie Mode Jacket</h3>
 <p class="price">Starting at $375+</p>
 <p>Purple luxury streetwear jacket with APE lettering, stars, cup patches, and gritty details.</p>
-<div class="product-buttons"><a href="contact.html">Request Order</a><a class="black" href="design-studio.html">Customize</a></div>
+<div class="options">Sizes: S–5XL<br>Colors: Purple / Black / Custom<br>Style: Premium streetwear</div>
+<div class="btns"><a href="contact.html">Request This Design</a><a class="black" href="design-studio.html">Customize</a></div>
 </div>
 </div>
 
 <div class="product-card">
-<img src="FDFE85B8-355D-47A2-B318-7F4595F35405.JPEG" alt="Blue Pill Red Pill Jacket">
+<img src="FDFE85B8-355D-47A2-B318-7F4595F35405.JPEG">
 <div class="product-info">
 <span class="tag">Statement Jacket</span>
 <h3>Blue Pill / Red Pill Jacket</h3>
 <p class="price">Starting at $375+</p>
-<p>Matrix-inspired varsity jacket with red and blue contrast graphics and bold back branding.</p>
-<div class="product-buttons"><a href="contact.html">Request Order</a><a class="black" href="design-studio.html">Customize</a></div>
+<p>Matrix-inspired varsity jacket with red and blue contrast graphics.</p>
+<div class="options">Sizes: S–5XL<br>Colors: Red / Blue / Custom<br>Theme: Statement concept</div>
+<div class="btns"><a href="contact.html">Request This Design</a><a class="black" href="design-studio.html">Customize</a></div>
 </div>
 </div>
 
 <div class="product-card">
-<img src="IMG_4834.PNG" alt="Purple Vision T-Shirt">
+<img src="IMG_4834.PNG">
 <div class="product-info">
 <span class="tag">Graphic Tee</span>
 <h3>Purple Vision T-Shirt</h3>
 <p class="price">Starting at $35+</p>
-<p>Black and purple front/back graphic tee with artist-inspired typography and visual theme.</p>
-<div class="product-buttons"><a href="contact.html">Request Order</a><a class="black" href="design-studio.html">Customize</a></div>
+<p>Black and purple front/back graphic tee with bold artist-inspired typography.</p>
+<div class="options">Sizes: S–5XL<br>Shirt colors: Custom<br>Print: Front / Back available</div>
+<div class="btns"><a href="contact.html">Request This Design</a><a class="black" href="design-studio.html">Customize</a></div>
 </div>
 </div>
 
 <div class="product-card">
-<img src="BD875BF2-DFEA-4DE3-8245-1E4FB611CE5E.PNG" alt="APE Button Down 2">
+<img src="BD875BF2-DFEA-4DE3-8245-1E4FB611CE5E.PNG">
 <div class="product-info">
 <span class="tag">Work Shirt</span>
 <h3>APE Button Down 2</h3>
 <p class="price">Starting at $85+</p>
-<p>Custom black-and-white button-down work shirt with Old English typography and clean trim.</p>
-<div class="product-buttons"><a href="contact.html">Request Order</a><a class="black" href="design-studio.html">Customize</a></div>
+<p>Custom black-and-white button-down work shirt with Old English typography.</p>
+<div class="options">Sizes: S–5XL<br>Colors: Black / White / Custom<br>Use: Workwear or merch</div>
+<div class="btns"><a href="contact.html">Request This Design</a><a class="black" href="design-studio.html">Customize</a></div>
 </div>
 </div>
 
 <div class="product-card">
-<img src="AB0153BA-81C6-4355-A51B-80763C3324B1.JPEG" alt="Broken Promises Jacket">
+<img src="AB0153BA-81C6-4355-A51B-80763C3324B1.JPEG">
 <div class="product-info">
 <span class="tag">Best Seller</span>
 <h3>Broken Promises Jacket</h3>
 <p class="price">Starting at $400+</p>
-<p>Pink and white statement varsity jacket with full back lyric layout and detailed custom patches.</p>
-<div class="product-buttons"><a href="contact.html">Request Order</a><a class="black" href="design-studio.html">Customize</a></div>
+<p>Pink and white statement varsity jacket with full back lyric layout and custom patches.</p>
+<div class="options">Sizes: S–5XL<br>Colors: Pink / White / Custom<br>Details: Premium concept</div>
+<div class="btns"><a href="contact.html">Request This Design</a><a class="black" href="design-studio.html">Customize</a></div>
 </div>
 </div>
-
-
 
 </section>
 
