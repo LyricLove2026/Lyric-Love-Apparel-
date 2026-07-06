@@ -1,2 +1,3 @@
-# Lyric Love Apparel V5
-Styled boutique GitHub Pages website. Upload all files to the repository root.
+# Lyric Love Apparel Premium Site
+
+Upload all files to the root of your GitHub Pages repository.
